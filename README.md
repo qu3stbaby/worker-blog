@@ -6,7 +6,7 @@ Workers 是 Cloudflare 提供的边缘计算服务，原本是收费的，现在
 
 用户可以使用 JavaScript 编写自己的程序，然后可以直接通过域名访问运行。
 
-演示博客地址：https://blog.natfrp.org/
+演示博客地址：
 
 ## 如何部署
 
@@ -88,7 +88,7 @@ touch list.json
 
 ## JavaScript 资源
 
-如果你仔细查看 workers.js，你会看到一些 https://cn.tql.ink:4443/ 的资源文件
+如果你仔细查看 workers.js，你会看到一些  的资源文件
 
 我建议在实际使用时将这些资源下载下来放到其他地方，或者使用 CDN，因为这是我自己的演示环境域名，并不稳定。
 
@@ -112,9 +112,7 @@ alias wbs='php /usr/local/tools/wbs.php'
 
 ## 评论系统
 
-workers-sakurafrp.js 默认使用了 Sakura Comments 评论系统，你可以在我的博客下方留言申请域名白名单，或者更换为其他的评论系统。
 
-文章地址：https://blog.natfrp.org/2 （你还可以在 Issues 里提出，通过任意方式告诉我即可）
 
 ## 开源协议
 
